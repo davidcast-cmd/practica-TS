@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Randomizador de actividad</title>
+</head>
+
+<body>
+  <main class="app">
+    <h1>¿Qué hago hoy?</h1>
+
+    <div id="tarjeta" class="tarjeta oculto">
+      <span id="tipo" class="etiqueta"></span>
+      <h2 id="actividad"></h2>
+      <ul class="datos">
+        <li id="participantes"></li>
+        <li id="precio"></li>
+        <li id="duracion"></li>
+        <li id="accesibilidad"></li>
+        <li id="disponibilidad"></li>
+        <li id="ninos"></li>
+        <li id="clave"></li>
+      </ul>
+      <a id="enlace" class="enlace oculto" target="_blank">Más información</a>
+    </div>
+
+    <p id="error" class="error"></p>
+    <button id="boton">Nueva actividad</button>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
